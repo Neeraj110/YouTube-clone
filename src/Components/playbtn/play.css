@@ -1,0 +1,155 @@
+.about {
+    padding: 4rem 0.5rem 0 1rem;
+}
+
+.more .youtube {
+    width: 95%;
+    height: 68vh;
+    border-radius: 30px;
+}
+
+.title {
+    font-size: 12px;
+}
+
+.publisher {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 4rem 0 0;
+}
+
+.avatar {
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.light {
+    color: #808080;
+}
+
+.channel-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribers {
+    width: 7rem;
+    height: 2.5rem;
+    background-color: white;
+    color: #000;
+    border-radius: 100px;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.subscribers:hover {
+    background-color: #808080;
+}
+
+.like {
+    width: 6rem;
+    height: 2.5rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: 100px;
+    border: none;
+    font-size: 1rem;
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.view {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.description {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.comment {
+    display: flex;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.comment-img {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.send {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.comment-action {
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.reply {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+@media (max-width: 650px) {
+
+    .about {
+        padding: 4rem 1rem 0rem 0rem;
+
+    }
+
+    .comment-section {
+        display: none;
+    }
+
+    .publisher {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .subscribers {
+        font-size: 0.5rem;
+    }
+
+    .like {
+        font-size: 0.5rem;
+        display: flex;
+        width: 3rem;
+        margin-left: 1rem;
+    }
+
+    .send {
+        display: none;
+    }
+
+    .more .youtube {
+        width: 120%;
+        height: 60vh;
+        margin-right: 1rem;
+    }
+}

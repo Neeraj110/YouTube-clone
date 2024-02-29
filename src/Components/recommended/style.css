@@ -1,0 +1,51 @@
+.small {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 4.5rem 2rem 1rem 0rem;
+}
+
+.content {
+    display: flex;
+}
+
+.content::-webkit-scrollbar {
+    display: none;
+}
+
+.content .small-youtube {
+    width: 15rem;
+    height: 7rem;
+    border-radius: 10px;
+}
+
+.content h2 {
+    font-size: 1rem;
+    margin-left: 1rem;
+}
+
+.content p {
+    margin-left: 1rem;
+    color: #808080;
+    font-size: 0.8rem;
+}
+
+@media (max-width:600px) {
+
+    .small-youtube{
+        max-width: 90%;
+    }
+
+    .small {
+        width: 100%;
+        padding: 2rem 0 0 0;
+    }
+
+    .small-section h2 {
+        font-size: 0.7rem;
+    }
+
+    .small-section p {
+        font-size: 0.5rem;
+    }
+}

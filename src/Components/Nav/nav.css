@@ -1,0 +1,115 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    height: 4rem;
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo p {
+    font-size: 1.2rem;
+    font-weight: 700;
+
+}
+
+.small {
+    font-size: 0.7rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.search input {
+    width: 30rem;
+    height: 3vw;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid white;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+
+.search .search-icon {
+    font-size: 1.3rem;
+    width: 3rem;
+    height: 2.8vw;
+    border: none;
+    border-radius: 0px 40px 40px 0px;
+    cursor: pointer;
+    border-radius: 100px;
+}
+
+.micro {
+    font-size: 1.5rem;
+    border-radius: 100%;
+    width: 40px;
+    border: none;
+    color: #fff;
+}
+
+
+.account {
+    gap: 2rem;
+}
+
+.account img {
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+@media (max-width: 650px) {
+
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+
+    .mic,
+    .micro {
+        display: none;
+    }
+
+    .search input {
+        width: 60%;
+    }
+
+    .logo img{
+        margin-left: -0.8rem;
+    }
+
+    .logo p{
+        margin-left: -1.3rem;
+        font-size: 1rem;
+        font: 500;
+        display: flex;
+        gap: 0.2rem;
+    }
+
+    .search .search-icon {
+      margin-bottom: 1rem;
+      
+    }
+
+}
